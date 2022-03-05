@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 72vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 85px;
+}
+
+.center{
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.fw{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 45%;
+}
+
+.p{
+    width: 200px;
+    height: 50px;
+    margin: 0px 35%; 
+    padding-top: 10%;
+    background-color: palevioletred
+}
+
+.box {
+    width: 70%;
+    margin: 0 auto;
+    border: solid 1px blue;
+    padding: 20px 0px;
+}
+
+.small{
+    width: 70%;
+    background-color: indigo;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+
+.big{
+    width: 90%;
+    background-color: green;
+    margin: 0 auto;
+    padding:40px 20px; 
+    text-align: center;
+    color: white;
+}
+
+.peach{
+    background-color: #eeaba0;
+}
+
+.big:last-child{
+    background-color: blue;
+}
+
+.navigation{
+    width: 100%;
+}
+
+.link{
+     margin: 0px 10px 15px;
+}
+
+.link a{
+     padding: 5px 5px;
+     border-radius: 3px 3px;
+     color: white;
+     text-decoration: none;
+     background: radial-gradient(#1067c4, #be04cc);
+}
