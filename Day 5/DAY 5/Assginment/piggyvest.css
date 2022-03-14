@@ -1,0 +1,563 @@
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    margin: 0px;
+}
+
+.container{
+    width: 50%;
+    min-height: 500px;
+    border: 2px solid black;
+    margin: 0px auto;
+    padding: 5PX;
+}
+
+.container .section-box{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.container .section-box .box-A{
+    width: 48%;
+    min-height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container .section-box .box-A .child1A{
+    width: 31%;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.container .section-box .box-A .child1{
+    width: 11%;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.container .section-box .box-B{
+    width: 48%;
+    min-height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container .section-box .box-B .child2{
+    width: 42%;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 5px 5px 10px;
+}
+
+.container .section-bat{
+    width: 100%;
+    min-height: 80px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.container .section-bat .box-A{
+    width: 42%;
+    min-height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 10px 30px 10px 5px;
+}
+
+.container .section-bat .box-A .child3{
+    width: 98%;
+    height: 40px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.container .section-bat .box-A .child3A{
+    width: 98%;
+    height: 25px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.container .section-bat .box-A .child3B{
+    width: 38%;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.container .section-bat .box-A .child3C{
+    width: 38%;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5PX ;
+}
+
+.container .section-bat .box-B{
+    width: 42%;
+    height: 180px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 10px 0px 10px 30px;
+}
+
+.container .section-break{
+    width: 40%;
+    min-height: 50px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.container .section-break .box-A{
+    width: 25%;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container .section-break .box-B{
+    width: 50%;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 10px 0px 5px 10px;
+}
+
+.container .section-ball{
+    width: 100%;
+    min-height: 80px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.container .section-ball .box-A{
+    width: 45%;
+    min-height: 237px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container .section-ball .box-A .child5{
+    width: 98%;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;   
+}
+
+.container .section-ball .box-A .child5A{
+    width: 40%;
+    height: 30px;
+    border: 1px solid black;
+    margin: 5px;   
+}
+
+.container .section-ball .box-B{
+    width: 45%;
+    min-height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container .section-ball .box-B .child6{
+    width: 40%;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;      
+}
+
+.container .section-ball .box-B .child6A{
+    width: 40%;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;      
+}
+
+.container .section-bold{
+    width: 100%;
+    min-height: 80px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.container .section-bold .box-A{
+    width: 45%;
+    min-height: 170px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container .section-bold .box-B{
+    width: 45%;
+    min-height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container .section-bold .box-B .child7{
+    width: 40%;
+    height: 30px;
+    border: 1px solid black;
+    margin: 5px;      
+}
+
+.container .section-bold .box-B .child7A{
+    width: 98%;
+    height: 40px;
+    border: 1px solid black;
+    margin: 5px;      
+}
+
+.container .section-bold .box-B .child7B{
+    width: 98%;
+    height: 20px;
+    border: 1px solid black;
+    margin: 5px;      
+}
+
+.container .section-bold .box-B .child7C{
+    width: 60%;
+    height: 30px;
+    border: 1px solid black;
+    margin: 5px;      
+}
+
+.container .section-bank{
+    width: 100%;
+    min-height: 80px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.container .section-bank .box-A{
+    width: 48%;
+    min-height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 5px 0px 5px 10px;
+}
+
+.container .section-bank .box-A .child8{
+    width: 98%;
+    height: 30px;
+    border: 1px solid black;
+    margin: 5px;      
+}
+
+.container .section-bank .box-A .child8A{
+    width: 60%;
+    height: 30px;
+    border: 1px solid black;
+    margin: 5px;      
+}
+
+.container .section-bank .box-B{
+    width: 48%;
+    min-height: 122px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+.container .section-book{
+    width: 100%;
+    min-height: 80px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.container .section-book .box-A{
+    width: 48%;
+    min-height: 170px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 5px;
+}
+
+.container .section-book .box-A .child9{
+    width: 95%;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;      
+}
+
+.container .section-book .box-B{
+    width: 48%;
+    min-height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container .section-book .box-B .cover{
+    width: 98%;
+    min-height: 60px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container .section-book .box-B .cover .child10{
+    width: 98%;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 5px;      
+}
+
+.container .section-book .box-B .cover .child10A{
+    width: 98%;
+    height: 25px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 5px;      
+}
+
+.container .section-book .box-B .cover .child10B{
+    width: 45%;
+    height: 25px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 5px;      
+}
+
+.container .section-book .box-B .cover .child10C{
+    width: 45%;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;      
+}
+
+.container .section-bit{
+    width: 100%;
+    min-height: 80px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.container .section-bit .box-A{
+    width: 30%;
+    min-height: 40px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 10px;
+}
+
+.container .section-bit .box-B{
+    width: 60%;
+    min-height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 5px 0px 5px 10px;
+}
+
+.container .section-bit .box-B .child11{
+    width: 28%;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;      
+}
+
+.container .section-big{
+    width: 100%;
+    min-height: 60px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.container .section-big .box-A{
+    width: 17%;
+    min-height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 8px;
+}
+
+.container .section-big .box-A .child12{
+    width: 70%;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 15px 5px;      
+}
+
+.container .section-big .box-B{
+    width: 17%;
+    min-height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 8px;
+}
+
+.container .section-big .box-B .child13{
+    width: 70%;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 2px; 
+    margin-left: 5px;
+    margin-right: 5px;     
+}
+
+.container .section-big .box-B .child13A{
+    width: 70%;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;      
+}
+
+.container .section-big .box-B .child14{
+    width: 70%;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;      
+}
+
+.container .section-big .box-B .child15{
+    width: 70%;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;      
+}
+
+.container .section-big .box-C{
+    width: 17%;
+    min-height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 8px;
+}
+
+.container .section-big .box-C .child16{
+    width: 20%;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px 2px;      
+}
+
+.container .section-big .box-C .child16A{
+    width: 20%;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px 10px;      
+}
+
+.container .section-big .box-C .child16B{
+    width: 80%;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;      
+}
+
+.container .section-big .box-D{
+    width: 98%;
+    min-height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 5px;
+}
