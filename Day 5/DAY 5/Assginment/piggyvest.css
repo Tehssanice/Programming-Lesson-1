@@ -12,6 +12,9 @@
     border: 2px solid black;
     margin: 0px auto;
     padding: 5PX;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
 }
 
 .container .section-box{
@@ -19,6 +22,9 @@
     height: 80px;
     border: 1px solid black;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
 }
 
 .container .section-box .box-A{
@@ -29,6 +35,10 @@
     vertical-align: top;
     padding: 10px;
     margin: 5px;
+    display: flex;
+    flex-direction:row;
+    flex-shrink: 0;
+
 }
 
 .container .section-box .box-A .child1A{
@@ -57,6 +67,10 @@
     vertical-align: top;
     padding: 10px;
     margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+
 }
 
 .container .section-box .box-B .child2{
@@ -73,6 +87,10 @@
     min-height: 80px;
     border: 1px solid black;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+
 }
 
 .container .section-bat .box-A{
@@ -127,12 +145,26 @@
     margin: 10px 0px 10px 30px;
 }
 
-.container .section-break{
-    width: 40%;
+.container .section-incincible{
+    width: 100%;
     min-height: 50px;
     border: 1px solid black;
     margin-bottom: 20px;
     margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+.container .section-break{
+    width: 30%;
+    min-height: 50px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
 }
 
 .container .section-break .box-A{
@@ -160,10 +192,13 @@
     min-height: 80px;
     border: 1px solid black;
     margin-bottom: 20px;
+     display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
 }
 
 .container .section-ball .box-A{
-    width: 45%;
+    width: 47%;
     min-height: 237px;
     border: 1px solid black;
     display: inline-block;
@@ -189,7 +224,7 @@
 }
 
 .container .section-ball .box-B{
-    width: 45%;
+    width: 47%;
     min-height: 60px;
     border: 1px solid black;
     display: inline-block;
@@ -199,7 +234,7 @@
 }
 
 .container .section-ball .box-B .child6{
-    width: 40%;
+    width: 43%;
     height: 100px;
     border: 1px solid black;
     display: inline-block;
@@ -208,7 +243,7 @@
 }
 
 .container .section-ball .box-B .child6A{
-    width: 40%;
+    width: 43%;
     height: 100px;
     border: 1px solid black;
     display: inline-block;
@@ -221,10 +256,13 @@
     min-height: 80px;
     border: 1px solid black;
     margin-bottom: 20px;
+     display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
 }
 
 .container .section-bold .box-A{
-    width: 45%;
+    width: 47%;
     min-height: 170px;
     border: 1px solid black;
     display: inline-block;
@@ -234,7 +272,7 @@
 }
 
 .container .section-bold .box-B{
-    width: 45%;
+    width: 47%;
     min-height: 60px;
     border: 1px solid black;
     display: inline-block;
@@ -276,6 +314,9 @@
     min-height: 80px;
     border: 1px solid black;
     margin-bottom: 20px;
+     display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
 }
 
 .container .section-bank .box-A{
@@ -317,6 +358,10 @@
     min-height: 80px;
     border: 1px solid black;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+
 }
 
 .container .section-book .box-A{
@@ -400,6 +445,10 @@
     min-height: 80px;
     border: 1px solid black;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+
 }
 
 .container .section-bit .box-A{
