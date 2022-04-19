@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    font-family: cursive;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
+tr{
+    border-top: 1px solid #CCC;
+}
+
+td {
+    border: none;
+}
+.container table .image {
+    height: 40px;
+    padding-top: 7px;
+    margin-right: 10px;
+}
+
+.container .image img {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 7px;
+}
+
+tr>td:nth-child(1){
+    padding-left: 10px;
+}
+
+tr>td:nth-child(4),
+tr>td:nth-child(5),
+tr>td:nth-child(6),
+tr>td:nth-child(7),
+tr>td:nth-child(8),
+tr>td:nth-child(9)
+{
+    background-color: pink;
+}
+
+tr>td:nth-child(10),
+tr>td:nth-child(11),
+tr>td:nth-child(12),
+tr>td:nth-child(13),
+tr>td:nth-child(14),
+tr>td:nth-child(15),
+tr>th:nth-child(3){
+    background-color: rgb(158, 157, 157);
+}
+
+.home{
+    background-color: pink;
+}
+
+tr>td:nth-child(17),
+tr>th:nth-child(5){
+    background-color: red;
+}
+
+tr>td:nth-child(19),
+tr>th:nth-child(7){
+    background-color: rgb(158, 157, 157);
+}
+
+tr>td:nth-child(21),
+tr>th:nth-child(9){
+    background-color: rgb(158, 157, 157);
+}
+
+tr>td:nth-child(23),
+tr>th:nth-child(11){
+    background-color: rgb(158, 157, 157);
+}
+
+tr>td:nth-child(25),
+tr>td:nth-child(26),
+tr>th:nth-child(13){
+    background-color: yellow;
+}
