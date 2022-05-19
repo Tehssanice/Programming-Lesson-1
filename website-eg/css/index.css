@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* font-family: cursive; */
 }
 
 body {
@@ -63,7 +62,12 @@ h1 {
 
 .underline::after {
     content: '';
-    border-bottom: solid 1px white;
+    border-bottom: solid 6px white;
+    height: 3px;
+    width: 60%;
+    position: absolute;
+    bottom: 0.2em;
+    left: 20%;
 }
 
 p {
@@ -133,6 +137,7 @@ h4 {
     color: rgb(56, 56, 56);
     text-align: start;
     padding-top: 0.5em;
+    letter-spacing: normal;
 }
 
 
@@ -233,6 +238,7 @@ ul {
     color: rgb(87, 84, 84);
     text-align: center;
     line-height: 2em;
+    letter-spacing: normal;
 }
 
 .con {
@@ -250,7 +256,7 @@ ul {
 .con p {
     text-align: start;
     line-height: 2em;
-    padding: 0.5em 2.7em;
+    padding: 1em 23em 1em 3em;
     letter-spacing: normal;
 }
 
@@ -293,7 +299,7 @@ section.testimony {
 }
 
 .testimony p {
-    color: rgb(34, 33, 33);
+    color: rgb(68, 68, 68);
     text-align: center;
     padding: 0.5em 15em;
     letter-spacing: normal;
@@ -309,8 +315,196 @@ p.last {
     font-weight: bolder;
 }
 
-.testimony .click{
+.testimony .click {
     text-align: center;
     padding: 1em;
 }
 
+p.our {
+    font-size: bolder;
+    padding: 1em;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.punch {
+    display: flex;
+    padding: 1em 4em;
+    justify-content: center;
+}
+
+.punch figure {
+    padding: 1em;
+    width: 20%;
+    position: relative;
+}
+
+.punch figure img {
+    width: 100%;
+}
+
+.one {
+    position: absolute;
+    background: rgba(68, 68, 68, 0.5);
+    text-align: center;
+    font-weight: bolder;
+    padding: 2em 1em;
+    bottom: 1.2em;
+    width: 87%;
+}
+
+.first {
+    position: absolute;
+    background: rgba(68, 68, 68, 0.5);
+    text-align: center;
+    font-weight: bolder;
+    padding: 2em 1em;
+    bottom: 5.8em;
+    width: 87%;
+}
+
+.yellow p {
+    padding-bottom: 1.3em;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: start;
+}
+
+.yellow span {
+    background-color: yellow;
+    padding: 1em 1.8em;
+}
+
+.yellow span.wide {
+    padding: 0.8em 3.5em;
+}
+
+.info {
+    color: #000;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 1em;
+}
+
+form {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.form-control {
+    padding: 0.5em 10em 0.5em 0.4em;
+    margin: 0.5em;
+}
+
+.control {
+    background-color: #f9b506;
+    padding: 0.6em 1.5em;
+    border: 0px solid #fff;
+}
+
+.container section.final {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: #000;
+    color: #838080;
+    padding: 1em 13em;
+    text-align: start;
+    line-height: 35px;
+}
+
+ul p {
+    letter-spacing: normal;
+    font-weight: lighter;
+    text-align: start;
+    line-height: 22px;
+    padding-right: 2em;
+    color: #838080;
+}
+
+section.final .box ul>li:first-child {
+    padding-bottom: 0.5em;
+    color: #fff;
+    font-weight: bolder;
+}
+
+section.final ul>li i {
+    color: #fff;
+}
+
+@media screen and (max-width:480px) {
+    .background-image {
+        background-size: contain;
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    .peach {
+        padding: 0.3em;
+    }
+
+    h2 {
+        letter-spacing: 0.3em;
+        padding: 0.5em;
+
+    }
+
+    /* .peach ul {
+        width: 45%;
+    }
+
+    /* .can{
+        width:20%;
+    } */
+
+    .peach ul:nth-child(3) {
+        width: 20%;
+    }
+
+    */ h1 {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .underline::after {
+        content: '';
+        border-bottom: solid 6px white;
+        height: 3px;
+        width: 60%;
+        position: absolute;
+        bottom: 0.2em;
+        left: 20%;
+    }
+
+    p {
+        word-spacing: 0.2em;
+        text-align: center;
+        font-size: 0.7em;
+        font-weight: bolder;
+        color: #fff;
+        letter-spacing: 0.3em;
+    }
+
+    .bttn {
+        background-color: #f9b506;
+        text-align: center;
+        padding: 0.5em;
+        margin: 2em 37em;
+    }
+
+    .bttn a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bolder;
+    }
+
+    span.try {
+        justify-content: center;
+        display: flex;
+        padding: 2em;
+    }
+
+    span.try input.click.button {
+        margin-left: 0.5em;
+    }
+}
