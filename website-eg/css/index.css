@@ -27,7 +27,7 @@ body {
 
 h2 {
     letter-spacing: 1em;
-    padding: 1em;
+    padding: 0.5em;
     color: #fff;
     text-align: center;
 }
@@ -44,7 +44,7 @@ h2 {
 }
 
 .peach ul:nth-child(3) {
-    width: 13%;
+    width: 10%;
     color: #fff;
 }
 
@@ -53,53 +53,62 @@ h2 {
 }
 
 h1 {
-    font-size: 150px;
-    padding-top: 1.6em;
+    width: 100%;
+    font-size: 120px;
     text-align: center;
     color: #fff;
     position: relative;
+    padding-top: 1.2em;
+}
+
+.underline {
+    width: 70%;
 }
 
 .underline::after {
     content: '';
-    border-bottom: solid 6px white;
-    height: 3px;
-    width: 60%;
+    border-bottom: solid 5px white;
+    width: 70%;
     position: absolute;
     bottom: 0.2em;
-    left: 20%;
+    left: 15%;
+    right: 15%;
 }
 
 p {
     word-spacing: 0.2em;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: bolder;
     color: #fff;
     letter-spacing: 0.3em;
+    padding: 1em 0 2.5em 0;
 }
 
 .bttn {
-    background-color: #f9b506;
     text-align: center;
-    padding: 0.5em;
-    margin: 2em 37em;
+    width: 100%;
+    margin-bottom: 1em;
 }
 
 .bttn a {
     text-decoration: none;
+    width: 25%;
     color: #000;
+    padding: 0.5em 1.5em;
     font-weight: bolder;
+    background-color: #f9b506;
 }
 
 span.try {
-    justify-content: center;
     display: flex;
+    width: 100%;
+    justify-content: center;
     padding: 2em;
 }
 
 span.try input.click.button {
-    margin-left: 0.5em;
+    width: 2%;
 }
 
 .container section.white {
@@ -109,7 +118,7 @@ span.try input.click.button {
 
 h4 {
     text-align: center;
-    padding: 0.5em 0;
+    padding: 0.9em 0;
     color: #000;
     font-size: 2em;
 }
@@ -208,24 +217,23 @@ td {
     color: #000;
     text-align: center;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: x-large;
     padding-top: 1em;
 }
 
 .fix {
     display: flex;
     color: rgb(139, 137, 137);
-    padding: 1.5em 10em;
+    padding: 1em 10em;
 }
 
-ul {
+.fix li {
     list-style: none;
 }
 
 .cloth {
     padding: 0.5em;
     text-align: center;
-    list-style: none;
 }
 
 .cloth h3 {
@@ -413,6 +421,10 @@ form {
     line-height: 35px;
 }
 
+.box ul li {
+    list-style: none;
+}
+
 ul p {
     letter-spacing: normal;
     font-weight: lighter;
@@ -430,81 +442,4 @@ section.final .box ul>li:first-child {
 
 section.final ul>li i {
     color: #fff;
-}
-
-@media screen and (max-width:480px) {
-    .background-image {
-        background-size: contain;
-        width: 100%;
-        min-height: 50vh;
-    }
-
-    .peach {
-        padding: 0.3em;
-    }
-
-    h2 {
-        letter-spacing: 0.3em;
-        padding: 0.5em;
-
-    }
-
-    /* .peach ul {
-        width: 45%;
-    }
-
-    /* .can{
-        width:20%;
-    } */
-
-    .peach ul:nth-child(3) {
-        width: 20%;
-    }
-
-    */ h1 {
-        font-size: 10px;
-        padding-top: 10px;
-    }
-
-    .underline::after {
-        content: '';
-        border-bottom: solid 6px white;
-        height: 3px;
-        width: 60%;
-        position: absolute;
-        bottom: 0.2em;
-        left: 20%;
-    }
-
-    p {
-        word-spacing: 0.2em;
-        text-align: center;
-        font-size: 0.7em;
-        font-weight: bolder;
-        color: #fff;
-        letter-spacing: 0.3em;
-    }
-
-    .bttn {
-        background-color: #f9b506;
-        text-align: center;
-        padding: 0.5em;
-        margin: 2em 37em;
-    }
-
-    .bttn a {
-        text-decoration: none;
-        color: #000;
-        font-weight: bolder;
-    }
-
-    span.try {
-        justify-content: center;
-        display: flex;
-        padding: 2em;
-    }
-
-    span.try input.click.button {
-        margin-left: 0.5em;
-    }
 }
