@@ -16,7 +16,7 @@
     }
 
     h1 {
-        font-size: 2.1em;
+        font-size: 1.5em;
         padding-top: 1.3em;
         letter-spacing: 3px;
     }
@@ -34,7 +34,7 @@
     p {
         word-spacing: 0.1em;
         text-align: center;
-        font-size: 6px;
+        font-size: 4px;
         padding-top: 1em;
         font-weight: bolder;
         letter-spacing: 0.2em;
@@ -49,7 +49,7 @@
         width: 15%;
         color: #000;
         padding: 0.3em 0.7em;
-        font-size: 0.5em;
+        font-size: 0.4em;
         font-weight: bolder;
         background-color: #f9b506;
     }
@@ -69,7 +69,7 @@
         color: #000;
         letter-spacing: 2px;
         font-weight: normal;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .blank {
@@ -98,8 +98,337 @@
 
     .cover table {
         width: 100%;
-        margin-bottom: 2.1em;
+        margin-bottom: 2em;
+        height: 10em;
+        font-size: 5px;
+    }
+
+    tr>th:nth-child(2),
+    tr>th:nth-child(3),
+    tr>th:nth-child(4) {
+        padding-top: 2em;
+    }
+
+    tr>td:nth-child(2),
+    tr>td:nth-child(3),
+    tr>td:nth-child(4) {
+        padding-bottom: 1.5em;
+    }
+
+    tr>th:nth-child(1) {
+        padding-top: 0.1em;
+    }
+
+    .box img {
+        width: 50%;
+    }
+
+    .box img:nth-child(2) {
+        padding-left: 0.2em;
+    }
+
+    .find {
+        font-weight: normal;
+        font-size: 0.8em;
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+    }
+
+    .fix {
+        padding: 0 2em;
+    }
+
+    .cloth h3 {
+        color: rgb(20, 20, 20);
+        padding-bottom: 0.1em;
+        padding-top: 0.9em;
+        font-size: 4px;
+    }
+
+    .cloth p {
+        line-height: 1.6em;
+        padding-top: 0.7em;
+        font-size: 4px;
+        letter-spacing: normal;
+        padding-right: 0.5em;
+    }
+
+    .con {
+        padding: 1em 2em;
+    }
+
+    .con h2 {
+        padding: 0.5em 1.8em;
+        font-size: 0.5em;
+        letter-spacing: 0.2em;
+        word-spacing: 0.4em;
+        line-height: 1.5em;
+    }
+
+    .con p {
+        line-height: 1.5em;
+        padding: 1em 20em 1em 4em;
+    }
+
+    .con .btn {
+        border: 1px solid #fff;
+        padding: 0.5em;
+        width: 15%;
+        font-size: 4px;
+        margin-top: 1em;
+        margin-left: 4em;
+        text-align: center;
+    }
+
+    .click {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .click input.click.button {
+        width: 2%;
+    }
+
+
+    .testimony h2 {
+        padding: 1em;
+        font-size: 1em;
+        letter-spacing: 0.1em;
+    }
+
+    .testimony figure img {
+        border-radius: 50%;
+        border: 1px solid #000;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+    }
+
+    .testimony p {
+        color: rgb(114, 112, 112);
+        text-align: center;
+        padding: 0.5em 19em;
+        letter-spacing: normal;
+    }
+
+    p.last {
+        color: rgb(245, 90, 33);
+        font-weight: bolder;
+    }
+
+    p.our {
+        font-size: 0.8em;
+        padding-top: 1em;
+        padding-bottom: 0;
+    }
+
+    .punch {
+        padding: 1em 3em;
+        justify-content: center;
+    }
+
+    .punch figure {
+        padding: 0.2em;
+        width: 100%;
+        position: relative;
+    }
+
+    .punch figure img {
+        width: 100%;
+    }
+
+    .one {
+        position: absolute;
+        background: rgba(68, 68, 68, 0.5);
+        padding: 0.2em 0.1em;
+        bottom: 2em;
+        top: 20em;
+        width: 91%;
+        font-size: 0.2em;
+    }
+
+    .first {
+        position: absolute;
+        background: rgba(68, 68, 68, 0.5);
+        text-align: center;
+        font-weight: bolder;
+        padding: 0.3em;
+        bottom: 9em;
+        top: 12em;
+        width: 92%;
+        font-size: 0.2em;
+    }
+
+    .yellow p {
+        font-size: 0.8em;
+        text-align: start;
+        padding-bottom: 2.5em;
+    }
+
+    .yellow span {
+        padding: 4em 4em;
+        font-size: 0.1em;
+    }
+
+    .yellow span.wide {
+        padding: 5em 5em;
+        font-size: 0.1em;
+    }
+
+    .info {
+        font-size: 0.8em;
+        letter-spacing: normal;
+        font-weight: lighter;
+        padding: 0.5em;
+    }
+
+    form {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .form-control {
+        padding: 0.3em 0.9em 0.3em 0.1em;
+        margin: 0.1em;
+        font-weight: bolder;
         font-size: 0.3em;
+        width: 30%;
+    }
+
+    .control {
+        padding: 0.3em 0.9em;
+        font-size: 0.4em;
+    }
+
+    .container section.final {
+        padding: 1em 3em 2em 3em;
+        text-align: start;
+        line-height: 12px;
+        font-size: 0.2em;
+    }
+
+    ul p {
+        letter-spacing: normal;
+        font-weight: lighter;
+        line-height: 7px;
+        padding-right: 0.8em;
+        color: #838080;
+    }
+
+    section.final .box ul>li:first-child {
+        padding-bottom: 0.3em;
+        font-weight: lighter;
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:800px) {
+    .peach {
+        padding: 0.4em;
+        font-size: 0.7em;
+    }
+
+    .peach ul:nth-child(3) {
+        width: 15%;
+        color: #fff;
+    }
+
+    h2 {
+        letter-spacing: 0.4em;
+        padding: 0.5em;
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 3em;
+        padding-top: 1em;
+        letter-spacing: 3px;
+    }
+
+    .underline::after {
+        content: '';
+        border-bottom: solid 2px white;
+        height: 3px;
+        width: 60%;
+        position: absolute;
+        bottom: 0.2em;
+        left: 20%;
+    }
+
+    p {
+        word-spacing: 0.1em;
+        text-align: center;
+        font-size: 7px;
+        padding-top: 1em;
+        font-weight: bolder;
+        letter-spacing: 0.2em;
+    }
+
+    .bttn {
+        margin-bottom: 1.5em;
+    }
+
+    .bttn a {
+        text-decoration: none;
+        width: 20%;
+        color: #000;
+        padding: 0.3em 0.7em;
+        font-size: 0.7em;
+        font-weight: bolder;
+        background-color: #f9b506;
+    }
+
+    span.try {
+        padding: 0.5em;
+        margin-right: 0.3em;
+    }
+
+    span.try input.click.button {
+        margin-left: 0.2em;
+        width: 1%;
+    }
+
+    h4 {
+        text-align: center;
+        padding-top: 1em;
+        color: #000;
+        letter-spacing: 2px;
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+
+    .blank {
+        padding: 0.2em 4em;
+    }
+
+    .blank .peach {
+        width: 50%;
+        padding: 0.4em;
+    }
+
+    .blank .peach img {
+        width: 100%;
+    }
+
+    .blank .peach p {
+        padding-top: 1em;
+        line-height: 10px;
+        color: #948f8f;
+        font-size: 8px;
+    }
+
+    .blank .cover {
+        width: 50%;
+        padding: 0.2em;
+    }
+
+    .cover table {
+        width: 100%;
+        margin-bottom: 1.5em;
+        font-size: 0.5em;
     }
 
     tr>th:nth-child(2),
@@ -128,13 +457,13 @@
 
     .find {
         font-weight: normal;
-        font-size: 1em;
+        font-size: 1.3em;
         padding-top: 1em;
         padding-bottom: 0.5em;
     }
 
     .fix {
-        padding: 0 3em;
+        padding: 0 4em;
     }
 
     .cloth h3 {
@@ -145,49 +474,50 @@
     }
 
     .cloth p {
-        line-height: 1.3em;
-        padding-top: 0.7em;
+        line-height: 1.5em;
+        padding-top: 0.9em;
         font-size: 0.3em;
         letter-spacing: normal;
         padding-right: 0.5em;
     }
 
     .con {
-        padding: 1em 2em;
+        padding: 1em 4em;
     }
 
     .con h2 {
         padding: 0.5em 1.8em;
-        font-size: 0.8em;
+        font-size: 1em;
         letter-spacing: 0.2em;
-        word-spacing: 0.4em;
+        word-spacing: 0.2em;
         line-height: 1.5em;
     }
 
     .con p {
+        font-size: 0.6em;
         line-height: 1.5em;
-        padding: 1em 11em 1em 3.2em;
+        padding: 1em 13em 1em 3.2em;
     }
 
     .con .btn {
         border: 1px solid #fff;
         padding: 0.5em;
         width: 15%;
-        font-size: 7px;
+        font-size: 8px;
         margin-top: 1em;
-        margin-left: 3em;
+        margin-left: 4em;
         text-align: center;
     }
-    .click{
+
+    .click {
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
-    .click input.click.button{
-        width: 2%;
+    .click input.click.button {
+        width: 1%;
     }
-    
 
     .testimony h2 {
         padding: 1em;
@@ -202,15 +532,16 @@
     .testimony figure img {
         border-radius: 50%;
         border: 1px solid #000;
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
         text-align: center;
     }
 
     .testimony p {
+        font-size: 0.7em;
         color: rgb(114, 112, 112);
         text-align: center;
-        padding: 0.5em 9em;
+        padding: 0.6em 10em;
         letter-spacing: normal;
     }
 
@@ -220,13 +551,13 @@
     }
 
     p.our {
-        font-size: 1em;
+        font-size: 1.5em;
         padding-top: 1em;
         padding-bottom: 0;
     }
 
     .punch {
-        padding: 1em 3em;
+        padding: 1em 4em;
         justify-content: center;
     }
 
@@ -240,18 +571,14 @@
         width: 100%;
     }
 
-    /* figure .yellow{
-       margin: 2em 0;
-    } */
-
     .one {
         position: absolute;
         background: rgba(68, 68, 68, 0.5);
         padding: 0.2em 0.1em;
-        bottom: 1.5em;
-        top: 12em;
-        width: 93%;
-        font-size: 0.3em;
+        bottom: 0.4em;
+        top: 7em;
+        width: 96%;
+        font-size: 1em;
     }
 
     .first {
@@ -260,35 +587,36 @@
         text-align: center;
         font-weight: bolder;
         padding: 0.3em;
-        bottom: 1.8em;
-        top: 2.3em;
-        width: 93%;
+        bottom: 3em;
+        top: 4.2em;
+        width: 96%;
     }
 
     .yellow p {
-        font-size: 0.7em;
+        font-size: 1em;
         text-align: start;
-        padding-top: 0.2em;
+        padding: 0.3em;
     }
-    .spin{
-        padding-top: 2em;
+
+    .spin {
+        padding-top: 0.2em;
     }
 
     .yellow span {
-        padding: 0.5em 0.1em;
-        font-size: 0.4em;
+        padding: 1em 2.5em;
+        font-size: 0.5em;
     }
 
     .yellow span.wide {
-        padding: 0.3em 2.5em;
-        font-size: 0.4em;
+        padding: 1em 5em;
+        font-size: 0.5em;
     }
 
     .info {
-        font-size: 0.8em;
+        font-size: 1em;
         letter-spacing: normal;
         font-weight: lighter;
-        padding: 0.5em;
+        padding: 0.7em;
     }
 
     form {
@@ -297,38 +625,371 @@
     }
 
     .form-control {
-        padding: 0.3em 0.9em 0.3em 0.1em;
+        padding: 0.3em 0.9em 0.3em 0.4em;
         margin: 0.1em;
         font-weight: bolder;
-        font-size: 0.5em;
-        width: 30%;
+        font-size: 0.7em;
+        width: 35%;
     }
 
     .control {
         padding: 0.3em 0.9em;
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 
     .container section.final {
-        padding: 1em 5em 2em 5em;
+        padding: 1em 6em 2em 6em;
         text-align: start;
         line-height: 17px;
-        font-size: 0.3em;
+        font-size: 0.5em;
     }
 
     ul p {
         letter-spacing: normal;
         font-weight: lighter;
-        line-height: 8px;
-        padding-right: 0.8em;
+        line-height: 10px;
+        padding-right: 1.5em;
         color: #838080;
     }
 
     section.final .box ul>li:first-child {
         padding-bottom: 0.3em;
         font-weight: lighter;
-        font-size: 1.1em;
+        font-size: 1.5em;
         letter-spacing: 1px;
     }
+}
 
+@media screen and (min-width:801px) and (max-width:1024px) {
+    h2 {
+        letter-spacing: 0.4em;
+        padding: 0.5em;
+        font-size: 1.7em;
+    }
+
+    .peach {
+        padding: 0.4em;
+        font-size: 1em;
+    }
+
+    .peach ul:nth-child(3) {
+        width: 15%;
+        color: #fff;
+    }
+
+    h1 {
+        font-size: 5em;
+        padding-top: 0.6em;
+        letter-spacing: 3px;
+    }
+
+    .underline::after {
+        content: '';
+        border-bottom: solid 4px white;
+        height: 3px;
+        width: 60%;
+        position: absolute;
+        bottom: 0.2em;
+        left: 20%;
+    }
+
+    p {
+        word-spacing: 0.1em;
+        text-align: center;
+        font-size: 10px;
+        padding-top: 1em;
+        font-weight: bolder;
+        letter-spacing: 0.2em;
+    }
+
+    .bttn {
+        margin-bottom: 2em;
+    }
+
+    .bttn a {
+        text-decoration: none;
+        width: 30%;
+        color: #000;
+        padding: 0.5em 1em;
+        font-size: 0.9em;
+        font-weight: bolder;
+        background-color: #f9b506;
+    }
+
+    span.try {
+        padding: 0.5em;
+        margin-right: 0.3em;
+    }
+
+    span.try input.click.button {
+        margin-left: 0.2em;
+        width: 1%;
+    }
+
+    h4 {
+        text-align: center;
+        padding-top: 1em;
+        color: #000;
+        letter-spacing: 2px;
+        font-weight: normal;
+        font-size: 2em;
+    }
+
+    .blank {
+        padding: 0.2em 7em;
+    }
+
+    .blank .peach {
+        width: 50%;
+        padding: 0.2em 0.5em;
+    }
+
+    .blank .peach img {
+        width: 100%;
+    }
+
+    .blank .peach p {
+        padding-top: 1em;
+        line-height: 14px;
+        color: #948f8f;
+        font-size: 11px;
+    }
+
+    .blank .cover {
+        width: 50%;
+        padding: 0.2em;
+    }
+
+    .cover table {
+        width: 100%;
+        margin-bottom: 1em;
+        font-size: 0.8em;
+    }
+
+    tr>th:nth-child(2),
+    tr>th:nth-child(3),
+    tr>th:nth-child(4) {
+        padding-top: 2em;
+    }
+
+    tr>td:nth-child(2),
+    tr>td:nth-child(3),
+    tr>td:nth-child(4) {
+        padding-bottom: 1.5em;
+    }
+
+    tr>th:nth-child(1) {
+        padding-top: 0.1em;
+    }
+
+    .box img {
+        width: 50%;
+    }
+
+    .box img:nth-child(2) {
+        padding-left: 0.3em;
+    }
+
+    .find {
+        font-weight: normal;
+        font-size: 2em;
+        letter-spacing: 0.1em;
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+    }
+
+    .fix {
+        padding: 0 6em;
+    }
+
+    .cloth h3 {
+        color: rgb(20, 20, 20);
+        padding-bottom: 0.1em;
+        padding-top: 1em;
+        font-size: 0.9em;
+    }
+
+    .cloth p {
+        line-height: 1.3em;
+        padding-top: 0.9em;
+        font-size: 0.9em;
+        letter-spacing: normal;
+        padding-right: 0.5em;
+    }
+
+    .con {
+        padding: 1em 6em;
+    }
+
+    .con h2 {
+        padding: 0.5em 1.4em;
+        font-size: 1.3em;
+        letter-spacing: 0.2em;
+        word-spacing: 0.4em;
+        line-height: 1.6em;
+    }
+
+    .con p {
+        font-size: 0.8em;
+        line-height: 1.5em;
+        padding: 1em 18em 1em 2.2em;
+    }
+
+    .con .btn {
+        border: 1px solid #fff;
+        padding: 0.5em;
+        width: 15%;
+        font-size: 13px;
+        margin-top: 1em;
+        margin-left: 2.2em;
+        text-align: center;
+    }
+
+    .click {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .click input.click.button {
+        width: 1%;
+    }
+
+    .testimony h2 {
+        padding: 1em;
+        font-size: 1.5em;
+        letter-spacing: 0.2em;
+    }
+
+    .testimony figure img {
+        border-radius: 50%;
+        border: 1px solid #000;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+
+    .testimony p {
+        font-size: 0.9em;
+        color: rgb(114, 112, 112);
+        text-align: center;
+        padding: 0.6em 10em;
+        letter-spacing: normal;
+    }
+
+    p.last {
+        color: rgb(245, 90, 33);
+        font-weight: bolder;
+    }
+
+    p.our {
+        font-size: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 0;
+    }
+
+    .punch {
+        padding: 1em 6em;
+        justify-content: center;
+    }
+
+    .punch figure {
+        padding: 0.2em;
+        width: 100%;
+        position: relative;
+    }
+
+    .punch figure img {
+        width: 100%;
+    }
+
+    .one {
+        position: absolute;
+        background: rgba(68, 68, 68, 0.5);
+        padding: 0.2em 0.1em;
+        font-weight: bolder;
+        bottom: 0.3em;
+        top: 6.5em;
+        width: 97%;
+        font-size: 1.5em;
+    }
+
+    .first {
+        position: absolute;
+        background: rgba(68, 68, 68, 0.5);
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bolder;
+        padding: 0.3em;
+        bottom: 2.5em;
+        top: 3.7em;
+        width: 97%;
+    }
+
+    .yellow p {
+        font-size: 0.8em;
+        text-align: start;
+        padding: 0.5em;
+    }
+
+    .spin {
+        padding-top: 0.2em;
+    }
+
+    .yellow span {
+        padding: 1em 3em;
+        font-size: 0.5em;
+    }
+
+    .yellow span.wide {
+        padding: 1em 4.5em;
+        font-size: 0.5em;
+    }
+
+    .info {
+        font-size: 2em;
+        letter-spacing: normal;
+        font-weight: lighter;
+        padding: 0.7em;
+    }
+
+    form {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .form-control {
+        padding: 0.5em 0.9em 0.5em 0.4em;
+        margin: 0.2em;
+        font-weight: bolder;
+        font-size: 0.9em;
+        width: 30%;
+    }
+
+    .control {
+        padding: 0.5em 1em;
+        font-size: 0.9em;
+    }
+
+    .container section.final {
+        padding: 2em 6em;
+        text-align: start;
+        line-height: 22px;
+        font-size: 0.7em;
+    }
+
+    ul p {
+        letter-spacing: normal;
+        font-weight: lighter;
+        line-height: 15px;
+        padding-right: 1.5em;
+        color: #838080;
+    }
+
+    section.final .box ul>li:first-child {
+        padding-bottom: 0.5em;
+        font-weight: lighter;
+        font-size: 1.8em;
+        letter-spacing: 1px;
+    }
 }
