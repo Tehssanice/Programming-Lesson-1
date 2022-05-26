@@ -12,6 +12,21 @@
         left: 17%;
     }
 
+    h1 {
+        font-size: 2em;
+        padding-top: 1em;
+        letter-spacing: 3px;
+    }
+
+    .underline::after {
+        content: '';
+        border-bottom: solid 3px white;
+        width: 60%;
+        position: absolute;
+        bottom: 0.2em;
+        left: 20%;
+    }
+
     p {
         word-spacing: 0.1em;
         text-align: center;
@@ -132,6 +147,7 @@
         font-size: 4px;
         letter-spacing: normal;
         padding-right: 0.5em;
+        margin-left: 0px;
     }
 
     .con {
@@ -161,10 +177,8 @@
         text-align: center;
     }
 
-    .click {
-        width: 100%;
-        display: flex;
-        justify-content: center;
+    .testimony .click {
+       padding: 0.5em;
     }
 
     .click input.click.button {
@@ -204,12 +218,44 @@
         padding-bottom: 0;
     }
 
-    /* .punch {
-        padding: 10px 30px;
-        justify-content: center;
-    } */
+ .punch {
+     width: 75%;
+ }
 
-  
+ .pic {
+    
+     height: 100px;
+     width: 250px;
+     margin-left: 5px;
+ }
+
+ .seen {
+    
+     height: 100px;
+     width: 250px;
+     margin-left: 5px;
+ }
+
+ .block {
+    
+     height: 100px;
+     width: 250px;
+ }
+
+ .brake {
+     height: 100px;
+     width: 250px;
+ }
+
+ .yellow {
+     padding: 5px;
+     font-size: 5px;
+     margin: 0px 3px 3px;
+ }
+
+ .transparent p {
+     font-size: 8px;
+ }
 
     .info {
         font-size: 0.8em;
@@ -444,10 +490,8 @@
         text-align: center;
     }
 
-    .click {
-        width: 100%;
-        display: flex;
-        justify-content: center;
+    .testimony .click {
+        padding: 0.5em;
     }
 
     .click input.click.button {
@@ -460,9 +504,6 @@
         letter-spacing: 0.2em;
     }
 
-    .testimony figure {
-        text-align: center;
-    }
 
     .testimony figure img {
         border-radius: 50%;
@@ -473,11 +514,9 @@
     }
 
     .testimony p {
-        font-size: 0.7em;
+        font-size: 0.5em;
         color: rgb(114, 112, 112);
-        text-align: center;
         padding: 0.6em 10em;
-        letter-spacing: normal;
     }
 
     p.last {
@@ -491,10 +530,39 @@
         padding-bottom: 0;
     }
 
-    /* .punch {
-        padding: 1em 4em;
-        justify-content: center;
-    } */
+.punch {
+    width: 75%;
+}
+
+.pic {
+   
+    height: 180px;
+    width: 170px;
+}
+
+.seen {
+    height: 180px;
+    width: 170px;
+}
+
+.block {
+    height: 180px;
+    width: 170px;
+}
+
+.brake {
+    height: 180px;
+    width: 170px;
+}
+
+.yellow {
+    padding: 7px;
+    font-size: 8px;
+}
+
+.transparent p {
+    font-size: 12px;
+}
 
     .info {
         font-size: 1em;
@@ -772,10 +840,40 @@
         padding-bottom: 0;
     }
 
-    /* .punch {
-        padding: 1em 6em;
-        justify-content: center;
-    } */
+ .punch {
+     width: 75%;
+ }
+
+ .pic {
+     height: 240px;
+     width: 160px;
+ }
+
+ .seen {
+     height: 240px;
+     width: 150px;
+ }
+
+ .block {
+     height: 240px;
+     width: 160px;
+ }
+
+ .brake {
+     height: 240px;
+     width: 160px;
+ }
+
+ .yellow {
+     padding: 10px;
+     font-size: 13px;
+     margin: 0px 3px 8px 3px;
+ }
+
+ .transparent p {
+     font-size: 20px;
+     padding: 10px 5px;
+ }
 
     .info {
         font-size: 2em;
@@ -820,7 +918,7 @@
     section.final .box ul>li:first-child {
         padding-bottom: 0.5em;
         font-weight: lighter;
-        font-size: 1.8em;
+        font-size: 1.3em;
         letter-spacing: 1px;
     }
-} */
+}

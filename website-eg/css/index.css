@@ -58,16 +58,12 @@ h1 {
     text-align: center;
     color: #fff;
     position: relative;
-    padding-top: 1em;
-}
-
-.underline {
-    width: 70%;
+    padding-top: 0.8em;
 }
 
 .underline::after {
     content: '';
-    border-bottom: solid 5px white;
+    border-bottom: solid 7px white;
     width: 70%;
     position: absolute;
     bottom: 0.2em;
@@ -82,7 +78,7 @@ p {
     font-weight: bolder;
     color: #fff;
     letter-spacing: 0.3em;
-    padding: 1em 0 2.5em 0;
+    padding: 1em 0 1.5em 0;
 }
 
 .bttn {
@@ -247,6 +243,7 @@ td {
     text-align: center;
     line-height: 2em;
     letter-spacing: normal;
+    margin-left: 9px;
 }
 
 .con {
@@ -336,28 +333,21 @@ p.our {
 }
 
 .punch {
-    width: 45%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 10px 0px;
     margin: auto;
-    
-}
 
-/* .save {
-    height: 200px;
-    width: 200px;
-    background-color: #eeab1b;
-    /* padding: 3px; */
-/* } */
+}
 
 .pic {
     background-image: url(/punch-images/7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 200px;
-    width: 130px;
+    height: 240px;
+    width: 160px;
     margin-left: 5px;
     display: flex;
     justify-content: center;
@@ -369,8 +359,8 @@ p.our {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 200px;
-    width: 130px;
+    height: 240px;
+    width: 150px;
     margin-left: 5px;
     display: flex;
     justify-content: center;
@@ -382,8 +372,8 @@ p.our {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 200px;
-    width: 130px;
+    height: 240px;
+    width: 160px;
     margin-left: 5px;
     display: flex;
     justify-content: center;
@@ -395,8 +385,8 @@ p.our {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 200px;
-    width: 130px;
+    height: 240px;
+    width: 160px;
     margin-left: 5px;
     display: flex;
     justify-content: center;
@@ -406,28 +396,27 @@ p.our {
 .transparent {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: rgba(226, 33, 33, 0.5);
+    background-color: rgb(74 71 71 / 50%);
     width: 100%;
 }
 
 .yellow {
-    /* width: 60%; */
-    height: 60%;
     text-align: center;
-    padding: 3px;
+    padding: 10px;
     display: inline-block;
     background-color: #eeab1b;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: bolder;
+    margin: 0px 3px 8px 3px;
 }
 
 .transparent p {
-    height: 35%;
     color: #fff;
-    font-size: 10px;
+    font-size: 20px;
+    font-weight: bolder;
     text-align: start;
-    display: inline-block;
+    margin: 0px;
+    padding: 10px 5px;
 }
 
 .info {
