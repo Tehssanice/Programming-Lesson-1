@@ -189,6 +189,7 @@
     .testimony h2 {
         padding: 1em;
         font-size: 1em;
+        font-weight: lighter;
         letter-spacing: 0.1em;
     }
 
@@ -283,24 +284,24 @@
     }
 
     .container section.final {
-        padding: 1em 3em 2em 3em;
+        padding: 1em 7em 2em 7em;
         text-align: start;
         line-height: 12px;
-        font-size: 0.2em;
+        font-size: 5px;
     }
 
     ul p {
         letter-spacing: normal;
         font-weight: lighter;
         line-height: 7px;
-        padding-right: 0.8em;
+        padding-right: 1em;
         color: #838080;
     }
 
     section.final .box ul>li:first-child {
         padding-bottom: 0.3em;
         font-weight: lighter;
-        font-size: 1em;
+        font-size: 7px;
         letter-spacing: 1px;
     }
 
