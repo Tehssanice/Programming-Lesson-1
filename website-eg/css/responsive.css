@@ -1,15 +1,21 @@
 @media screen and (max-width:480px) {
     .peach {
         padding: 0.7em;
-        font-size: 0.5em;
+        font-size: 5px;
+    }
+
+    .peach ul {
+        width: 50%;
+       
+    }
+
+    .peach ul li:hover {
+        color: rgb(252, 236, 18);
     }
 
     .peach ul:nth-child(3) {
         width: 15%;
-        color: #fff;
-        position: absolute;
         bottom: 0.2em;
-        left: 17%;
     }
 
     h1 {
@@ -20,7 +26,7 @@
 
     .underline::after {
         content: '';
-        border-bottom: solid 3px white;
+        border-bottom: solid 2px white;
         width: 60%;
         position: absolute;
         bottom: 0.2em;
@@ -84,7 +90,7 @@
     .blank .peach p {
         line-height: 7px;
         color: #948f8f;
-        font-size: 5px;
+        font-size: 4px;
     }
 
     .blank .cover {
@@ -96,7 +102,7 @@
         width: 100%;
         margin-bottom: 2em;
         height: 10em;
-        font-size: 5px;
+        font-size: 4px;
     }
 
     tr>th:nth-child(2),
@@ -178,7 +184,7 @@
     }
 
     .testimony .click {
-       padding: 0.5em;
+        padding: 0.5em;
     }
 
     .click input.click.button {
@@ -219,44 +225,44 @@
         padding-bottom: 0;
     }
 
- .punch {
-     width: 75%;
- }
+    .punch {
+        width: 75%;
+    }
 
- .pic {
-    
-     height: 100px;
-     width: 250px;
-     margin-left: 5px;
- }
+    .pic {
 
- .seen {
-    
-     height: 100px;
-     width: 250px;
-     margin-left: 5px;
- }
+        height: 100px;
+        width: 250px;
+        margin-left: 5px;
+    }
 
- .block {
-    
-     height: 100px;
-     width: 250px;
- }
+    .seen {
 
- .brake {
-     height: 100px;
-     width: 250px;
- }
+        height: 100px;
+        width: 250px;
+        margin-left: 5px;
+    }
 
- .yellow {
-     padding: 5px;
-     font-size: 5px;
-     margin: 0px 3px 3px;
- }
+    .block {
 
- .transparent p {
-     font-size: 8px;
- }
+        height: 100px;
+        width: 250px;
+    }
+
+    .brake {
+        height: 100px;
+        width: 250px;
+    }
+
+    .yellow {
+        padding: 5px;
+        font-size: 5px;
+        margin: 0px 3px 3px;
+    }
+
+    .transparent p {
+        font-size: 8px;
+    }
 
     .info {
         font-size: 0.8em;
@@ -287,21 +293,21 @@
         padding: 1em 7em 2em 7em;
         text-align: start;
         line-height: 12px;
-        font-size: 5px;
+        font-size: 4px;
     }
 
     ul p {
         letter-spacing: normal;
         font-weight: lighter;
         line-height: 7px;
-        padding-right: 1em;
+        padding-right: 2em;
         color: #838080;
     }
 
     section.final .box ul>li:first-child {
         padding-bottom: 0.3em;
         font-weight: lighter;
-        font-size: 7px;
+        font-size: 5px;
         letter-spacing: 1px;
     }
 
@@ -531,39 +537,39 @@
         padding-bottom: 0;
     }
 
-.punch {
-    width: 75%;
-}
+    .punch {
+        width: 75%;
+    }
 
-.pic {
-   
-    height: 180px;
-    width: 170px;
-}
+    .pic {
 
-.seen {
-    height: 180px;
-    width: 170px;
-}
+        height: 180px;
+        width: 170px;
+    }
 
-.block {
-    height: 180px;
-    width: 170px;
-}
+    .seen {
+        height: 180px;
+        width: 170px;
+    }
 
-.brake {
-    height: 180px;
-    width: 170px;
-}
+    .block {
+        height: 180px;
+        width: 170px;
+    }
 
-.yellow {
-    padding: 7px;
-    font-size: 8px;
-}
+    .brake {
+        height: 180px;
+        width: 170px;
+    }
 
-.transparent p {
-    font-size: 12px;
-}
+    .yellow {
+        padding: 7px;
+        font-size: 8px;
+    }
+
+    .transparent p {
+        font-size: 12px;
+    }
 
     .info {
         font-size: 1em;
@@ -841,40 +847,40 @@
         padding-bottom: 0;
     }
 
- .punch {
-     width: 75%;
- }
+    .punch {
+        width: 75%;
+    }
 
- .pic {
-     height: 240px;
-     width: 160px;
- }
+    .pic {
+        height: 240px;
+        width: 160px;
+    }
 
- .seen {
-     height: 240px;
-     width: 150px;
- }
+    .seen {
+        height: 240px;
+        width: 150px;
+    }
 
- .block {
-     height: 240px;
-     width: 160px;
- }
+    .block {
+        height: 240px;
+        width: 160px;
+    }
 
- .brake {
-     height: 240px;
-     width: 160px;
- }
+    .brake {
+        height: 240px;
+        width: 160px;
+    }
 
- .yellow {
-     padding: 10px;
-     font-size: 13px;
-     margin: 0px 3px 8px 3px;
- }
+    .yellow {
+        padding: 10px;
+        font-size: 13px;
+        margin: 0px 3px 8px 3px;
+    }
 
- .transparent p {
-     font-size: 20px;
-     padding: 10px 5px;
- }
+    .transparent p {
+        font-size: 20px;
+        padding: 10px 5px;
+    }
 
     .info {
         font-size: 2em;
