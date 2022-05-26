@@ -7,25 +7,6 @@
     .peach ul:nth-child(3) {
         width: 15%;
         color: #fff;
-    }
-
-    h2 {
-        letter-spacing: 0.4em;
-        padding: 0.5em;
-        font-size: 1em;
-    }
-
-    h1 {
-        font-size: 1.5em;
-        padding-top: 1.3em;
-        letter-spacing: 3px;
-    }
-
-    .underline::after {
-        content: '';
-        border-bottom: solid 2px white;
-        height: 3px;
-        width: 65%;
         position: absolute;
         bottom: 0.2em;
         left: 17%;
@@ -223,58 +204,12 @@
         padding-bottom: 0;
     }
 
-    .punch {
-        padding: 1em 3em;
+    /* .punch {
+        padding: 10px 30px;
         justify-content: center;
-    }
+    } */
 
-    .punch figure {
-        padding: 0.2em;
-        width: 100%;
-        position: relative;
-    }
-
-    .punch figure img {
-        width: 100%;
-    }
-
-    .one {
-        position: absolute;
-        background: rgba(68, 68, 68, 0.5);
-        padding: 0.2em 0.1em;
-        bottom: 2em;
-        top: 20em;
-        width: 91%;
-        font-size: 0.2em;
-    }
-
-    .first {
-        position: absolute;
-        background: rgba(68, 68, 68, 0.5);
-        text-align: center;
-        font-weight: bolder;
-        padding: 0.3em;
-        bottom: 9em;
-        top: 12em;
-        width: 92%;
-        font-size: 0.2em;
-    }
-
-    .yellow p {
-        font-size: 0.8em;
-        text-align: start;
-        padding-bottom: 2.5em;
-    }
-
-    .yellow span {
-        padding: 4em 4em;
-        font-size: 0.1em;
-    }
-
-    .yellow span.wide {
-        padding: 5em 5em;
-        font-size: 0.1em;
-    }
+  
 
     .info {
         font-size: 0.8em;
@@ -556,61 +491,10 @@
         padding-bottom: 0;
     }
 
-    .punch {
+    /* .punch {
         padding: 1em 4em;
         justify-content: center;
-    }
-
-    .punch figure {
-        padding: 0.2em;
-        width: 100%;
-        position: relative;
-    }
-
-    .punch figure img {
-        width: 100%;
-    }
-
-    .one {
-        position: absolute;
-        background: rgba(68, 68, 68, 0.5);
-        padding: 0.2em 0.1em;
-        bottom: 0.4em;
-        top: 7em;
-        width: 96%;
-        font-size: 1em;
-    }
-
-    .first {
-        position: absolute;
-        background: rgba(68, 68, 68, 0.5);
-        text-align: center;
-        font-weight: bolder;
-        padding: 0.3em;
-        bottom: 3em;
-        top: 4.2em;
-        width: 96%;
-    }
-
-    .yellow p {
-        font-size: 1em;
-        text-align: start;
-        padding: 0.3em;
-    }
-
-    .spin {
-        padding-top: 0.2em;
-    }
-
-    .yellow span {
-        padding: 1em 2.5em;
-        font-size: 0.5em;
-    }
-
-    .yellow span.wide {
-        padding: 1em 5em;
-        font-size: 0.5em;
-    }
+    } */
 
     .info {
         font-size: 1em;
@@ -888,63 +772,10 @@
         padding-bottom: 0;
     }
 
-    .punch {
+    /* .punch {
         padding: 1em 6em;
         justify-content: center;
-    }
-
-    .punch figure {
-        padding: 0.2em;
-        width: 100%;
-        position: relative;
-    }
-
-    .punch figure img {
-        width: 100%;
-    }
-
-    .one {
-        position: absolute;
-        background: rgba(68, 68, 68, 0.5);
-        padding: 0.2em 0.1em;
-        font-weight: bolder;
-        bottom: 0.3em;
-        top: 6.5em;
-        width: 97%;
-        font-size: 1.5em;
-    }
-
-    .first {
-        position: absolute;
-        background: rgba(68, 68, 68, 0.5);
-        text-align: center;
-        font-size: 1.5em;
-        font-weight: bolder;
-        padding: 0.3em;
-        bottom: 2.5em;
-        top: 3.7em;
-        width: 97%;
-    }
-
-    .yellow p {
-        font-size: 0.8em;
-        text-align: start;
-        padding: 0.5em;
-    }
-
-    .spin {
-        padding-top: 0.2em;
-    }
-
-    .yellow span {
-        padding: 1em 3em;
-        font-size: 0.5em;
-    }
-
-    .yellow span.wide {
-        padding: 1em 4.5em;
-        font-size: 0.5em;
-    }
+    } */
 
     .info {
         font-size: 2em;
@@ -992,4 +823,4 @@
         font-size: 1.8em;
         letter-spacing: 1px;
     }
-}
+} */
