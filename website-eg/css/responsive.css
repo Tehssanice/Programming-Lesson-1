@@ -60,6 +60,10 @@
         display: block;
     }
 
+    .hide-on-mobile {
+        display: block !important;
+    }
+
     h1 {
         font-size: 2em;
         padding-top: 1.5em;
@@ -114,8 +118,7 @@
     }
 
     .blank .peach {
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
         text-align: center;
         padding: 0.4em;
     }
@@ -127,13 +130,13 @@
     .blank .peach p {
         padding-top: 5px;
         line-height: 15px;
-        color: #948f8f;
+        font-weight: lighter;
+        color: #1e1e1e;
         font-size: 12px;
     }
 
     .blank .cover {
-        width: 85%;
-        margin-left: 7.5%;
+        width: 100%;
         padding: 0.2em;
     }
 
@@ -380,6 +383,10 @@
         font-size: large;
     }
 
+    .hide-on-mobile {
+        display: block !important;
+    }
+
     h2 {
         letter-spacing: 0.4em;
         padding: 0.5em;
@@ -451,8 +458,7 @@
     }
 
     .blank .peach {
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
         text-align: center;
         padding: 0.4em;
     }
@@ -464,13 +470,13 @@
     .blank .peach p {
         padding-top: 5px;
         line-height: 20px;
-        color: #948f8f;
+        color: #1e1e1e;
         font-size: 13px;
+        font-weight: lighter;
     }
 
     .blank .cover {
-        width: 85%;
-        margin-left: 7.5%;
+        width: 100%;
         padding: 0.2em;
     }
 
@@ -715,6 +721,10 @@
         font-size: large;
     }
 
+    .hide-on-mobile {
+        display: block !important;
+    }
+
     h2 {
         letter-spacing: 0.4em;
         padding: 0.5em;
@@ -786,8 +796,7 @@
     }
 
     .blank .peach {
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
         text-align: center;
         padding: 0.4em;
     }
@@ -804,8 +813,7 @@
     }
 
     .blank .cover {
-        width: 85%;
-        margin-left: 7.5%;
+        width: 100%;
         padding: 0.2em;
     }
 

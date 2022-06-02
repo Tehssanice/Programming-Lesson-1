@@ -18,6 +18,14 @@ body {
     align-items: center;
 }
 
+.hide-on-mobile {
+    display: none !important;
+}
+
+.blanket{
+    width: 100%;
+}
+
 .peach {
     width: 100%;
     display: flex;
@@ -53,10 +61,6 @@ h2 {
 .peach ul li:hover {
     color: rgb(252, 236, 18);
 }
-
-/* .peach button.menu {
-    display: none;
-} */
 
 h1 {
     width: 100%;
