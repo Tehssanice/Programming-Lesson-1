@@ -1,26 +1,68 @@
 @media screen and (max-width:480px) {
+    h2 {
+        letter-spacing: 10px;
+        padding: 0.5em 0 0;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .blanket {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        width: 100%;
+    }
+
+    .row {
+        width: 50%;
+    }
+
+    nav {
+        width: 10%;
+    }
+
     .peach {
-        padding: 0.7em;
-        font-size: 5px;
+        background-color: #000;
+        padding: 0;
     }
 
     .peach ul {
-        width: 50%;
-       
+        display: none;
     }
 
-    .peach ul li:hover {
-        color: rgb(252, 236, 18);
+    span.hidden {
+        display: none;
     }
 
-    .peach ul:nth-child(3) {
-        width: 15%;
-        bottom: 0.2em;
+    .menu {
+        display: block;
+        border: none;
+        background-color: #000;
+        color: #fff;
+    }
+
+    .menu>i {
+        font-size: large;
+    }
+
+    .menu>ul {
+        flex-direction: column;
+        width: 150px;
+        background-color: white;
+        position: absolute;
+        right: 0;
+        top: 4em;
+        display: none;
+    }
+
+    .menu:hover+ul {
+        display: block;
     }
 
     h1 {
         font-size: 2em;
-        padding-top: 1em;
+        padding-top: 1.5em;
         letter-spacing: 3px;
     }
 
@@ -35,8 +77,7 @@
 
     p {
         word-spacing: 0.1em;
-        text-align: center;
-        font-size: 4px;
+        font-size: 7px;
         padding-top: 1em;
         font-weight: bolder;
         letter-spacing: 0.2em;
@@ -47,13 +88,9 @@
     }
 
     .bttn a {
-        text-decoration: none;
         width: 15%;
-        color: #000;
         padding: 0.3em 0.7em;
-        font-size: 0.4em;
-        font-weight: bolder;
-        background-color: #f9b506;
+        font-size: 10px;
     }
 
     span.try {
@@ -66,20 +103,20 @@
     }
 
     h4 {
-        text-align: center;
         padding-top: 1em;
-        color: #000;
-        letter-spacing: 2px;
         font-weight: normal;
-        font-size: 1em;
+        font-size: 20px;
     }
 
     .blank {
         padding: 0.2em 3em;
+        flex-direction: column;
     }
 
     .blank .peach {
-        width: 50%;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
         padding: 0.4em;
     }
 
@@ -88,21 +125,23 @@
     }
 
     .blank .peach p {
-        line-height: 7px;
+        padding-top: 5px;
+        line-height: 15px;
         color: #948f8f;
-        font-size: 4px;
+        font-size: 12px;
     }
 
     .blank .cover {
-        width: 50%;
+        width: 85%;
+        margin-left: 7.5%;
         padding: 0.2em;
     }
 
     .cover table {
         width: 100%;
         margin-bottom: 2em;
-        height: 10em;
-        font-size: 4px;
+        height: 90px;
+        font-size: 10px;
     }
 
     tr>th:nth-child(2),
@@ -121,97 +160,86 @@
         padding-top: 0.1em;
     }
 
+    .box {
+        flex-direction: column;
+    }
+
     .box img {
-        width: 50%;
+        width: 100%;
+        padding-bottom: 5px;
     }
 
     .box img:nth-child(2) {
-        padding-left: 0.2em;
+        padding-left: 0;
     }
 
     .find {
         font-weight: normal;
-        font-size: 0.8em;
+        font-size: 20px;
         padding-top: 1em;
         padding-bottom: 0.5em;
     }
 
     .fix {
-        padding: 0 2em;
+        padding: 0 4em;
+        flex-direction: column;
     }
 
     .cloth h3 {
-        color: rgb(20, 20, 20);
         padding-bottom: 0.1em;
         padding-top: 0.9em;
-        font-size: 4px;
+        font-size: 15px;
     }
 
     .cloth p {
         line-height: 1.6em;
         padding-top: 0.7em;
-        font-size: 4px;
+        font-size: 12px;
         letter-spacing: normal;
         padding-right: 0.5em;
         margin-left: 0px;
     }
 
     .con {
-        padding: 1em 2em;
+        padding: 1em 3em;
+        text-align: center;
     }
 
     .con h2 {
-        padding: 0.5em 1.8em;
-        font-size: 0.5em;
-        letter-spacing: 0.2em;
-        word-spacing: 0.4em;
-        line-height: 1.5em;
+        padding: 0.2em;
+        font-size: 17px;
+        letter-spacing: 1px;
+        word-spacing: normal;
+        line-height: 20px;
     }
 
     .con p {
         line-height: 1.5em;
-        padding: 1em 20em 1em 4em;
+        padding: 0.8em 0.2em;
+        font-size: 14px;
     }
 
     .con .btn {
-        border: 1px solid #fff;
-        padding: 0.5em;
-        width: 15%;
-        font-size: 4px;
-        margin-top: 1em;
-        margin-left: 4em;
-        text-align: center;
+        width: 30%;
+        font-size: 10px;
+        margin-left: 0.3em;
     }
-
-    .testimony .click {
-        padding: 0.5em;
-    }
-
-    .click input.click.button {
-        width: 2%;
-    }
-
 
     .testimony h2 {
-        padding: 1em;
-        font-size: 1em;
+        font-size: 20px;
         font-weight: lighter;
         letter-spacing: 0.1em;
     }
 
     .testimony figure img {
-        border-radius: 50%;
-        border: 1px solid #000;
-        width: 40px;
-        height: 40px;
-        text-align: center;
+        width: 65px;
+        height: 65px;
     }
 
     .testimony p {
-        color: rgb(114, 112, 112);
-        text-align: center;
-        padding: 0.5em 19em;
-        letter-spacing: normal;
+        padding: 0.5em 4.5em;
+        font-weight: lighter;
+        font-size: 14px;
     }
 
     p.last {
@@ -219,60 +247,49 @@
         font-weight: bolder;
     }
 
+    .testimony .click {
+        padding: 0.5em;
+        width: 100%;
+    }
+
+    .click input.click.button {
+        width: 2%;
+    }
+
     p.our {
-        font-size: 0.8em;
+        font-size: 20px;
         padding-top: 1em;
         padding-bottom: 0;
     }
 
     .punch {
-        width: 75%;
+        width: 100%;
+        flex-direction: column;
     }
 
     .pic {
-
-        height: 100px;
-        width: 250px;
-        margin-left: 5px;
-    }
-
-    .seen {
-
-        height: 100px;
-        width: 250px;
-        margin-left: 5px;
-    }
-
-    .block {
-
-        height: 100px;
-        width: 250px;
-    }
-
-    .brake {
-        height: 100px;
-        width: 250px;
+        height: 180px;
+        width: 120px;
     }
 
     .yellow {
         padding: 5px;
-        font-size: 5px;
+        font-size: 10px;
         margin: 0px 3px 3px;
     }
 
     .transparent p {
-        font-size: 8px;
+        font-size: 15px;
     }
 
     .info {
-        font-size: 0.8em;
+        font-size: 20px;
         letter-spacing: normal;
         font-weight: lighter;
         padding: 0.5em;
     }
 
     form {
-        text-align: center;
         padding-bottom: 1em;
     }
 
@@ -280,58 +297,97 @@
         padding: 0.3em 0.9em 0.3em 0.1em;
         margin: 0.1em;
         font-weight: bolder;
-        font-size: 0.3em;
-        width: 30%;
+        font-size: 9px;
+        width: 34%;
     }
 
     .control {
         padding: 0.3em 0.9em;
-        font-size: 0.4em;
+        font-size: 10px;
     }
 
     .container section.final {
-        padding: 1em 7em 2em 7em;
         text-align: start;
-        line-height: 12px;
-        font-size: 4px;
+        flex-direction: column;
     }
 
     ul p {
         letter-spacing: normal;
         font-weight: lighter;
-        line-height: 7px;
-        padding-right: 2em;
+        line-height: 13px;
+        font-size: 10px;
+        padding-right: 4em;
         color: #838080;
+    }
+
+    .final .box {
+        min-height: 0;
+        font-size: 10px;
+    }
+
+    .lh {
+        line-height: 25px;
     }
 
     section.final .box ul>li:first-child {
         padding-bottom: 0.3em;
         font-weight: lighter;
-        font-size: 5px;
+        font-size: 10px;
         letter-spacing: 1px;
     }
-
 }
 
+
 @media screen and (min-width:481px) and (max-width:800px) {
-    .peach {
-        padding: 0.4em;
-        font-size: 0.7em;
+
+    .blanket {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        width: 100%;
     }
 
-    .peach ul:nth-child(3) {
+    .row {
+        width: 50%;
+    }
+
+    nav {
         width: 15%;
+    }
+
+    .peach {
+        background-color: #000;
+        padding: 0;
+    }
+
+    .peach ul {
+        display: none;
+    }
+
+    span.hidden {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        border: none;
+        background-color: #000;
         color: #fff;
+    }
+
+    .menu>i {
+        font-size: large;
     }
 
     h2 {
         letter-spacing: 0.4em;
         padding: 0.5em;
-        font-size: 1.2em;
+        font-size: 20px;
     }
 
     h1 {
-        font-size: 3em;
+        font-size: 50px;
         padding-top: 1em;
         letter-spacing: 3px;
     }
@@ -349,7 +405,7 @@
     p {
         word-spacing: 0.1em;
         text-align: center;
-        font-size: 7px;
+        font-size: 9px;
         padding-top: 1em;
         font-weight: bolder;
         letter-spacing: 0.2em;
@@ -389,11 +445,15 @@
     }
 
     .blank {
-        padding: 0.2em 4em;
+        padding: 0.2em 3em;
+        flex-direction: column;
+        width: 85%;
     }
 
     .blank .peach {
-        width: 50%;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
         padding: 0.4em;
     }
 
@@ -402,21 +462,23 @@
     }
 
     .blank .peach p {
-        padding-top: 1em;
-        line-height: 10px;
+        padding-top: 5px;
+        line-height: 20px;
         color: #948f8f;
-        font-size: 8px;
+        font-size: 13px;
     }
 
     .blank .cover {
-        width: 50%;
+        width: 85%;
+        margin-left: 7.5%;
         padding: 0.2em;
     }
 
     .cover table {
         width: 100%;
-        margin-bottom: 1.5em;
-        font-size: 0.5em;
+        margin-bottom: 2em;
+        height: 100px;
+        font-size: 13px;
     }
 
     tr>th:nth-child(2),
@@ -435,12 +497,17 @@
         padding-top: 0.1em;
     }
 
+    .box {
+        flex-direction: column;
+    }
+
     .box img {
-        width: 50%;
+        width: 100%;
+        padding-bottom: 5px;
     }
 
     .box img:nth-child(2) {
-        padding-left: 0.3em;
+        padding-left: 0;
     }
 
     .find {
@@ -452,21 +519,22 @@
 
     .fix {
         padding: 0 4em;
+        flex-direction: column;
     }
 
     .cloth h3 {
-        color: rgb(20, 20, 20);
         padding-bottom: 0.1em;
         padding-top: 0.9em;
-        font-size: 0.4em;
+        font-size: 15px;
     }
 
     .cloth p {
-        line-height: 1.5em;
-        padding-top: 0.9em;
-        font-size: 0.3em;
+        line-height: 1.6em;
+        padding-top: 0.7em;
+        font-size: 15px;
         letter-spacing: normal;
         padding-right: 0.5em;
+        margin-left: 0px;
     }
 
     .con {
@@ -482,19 +550,16 @@
     }
 
     .con p {
-        font-size: 0.6em;
+        font-size: 14px;
         line-height: 1.5em;
-        padding: 1em 13em 1em 3.2em;
+        padding: 1em 2em;
     }
 
     .con .btn {
-        border: 1px solid #fff;
         padding: 0.5em;
-        width: 15%;
-        font-size: 8px;
-        margin-top: 1em;
-        margin-left: 4em;
-        text-align: center;
+        width: 20%;
+        font-size: 10px;
+        margin-left: 2.6em;
     }
 
     .testimony .click {
@@ -521,9 +586,9 @@
     }
 
     .testimony p {
-        font-size: 0.5em;
+        font-size: 13px;
         color: rgb(114, 112, 112);
-        padding: 0.6em 10em;
+        padding: 0.6em 5em;
     }
 
     p.last {
@@ -532,49 +597,33 @@
     }
 
     p.our {
-        font-size: 1.5em;
+        font-size: 25px;
         padding-top: 1em;
-        padding-bottom: 0;
     }
 
     .punch {
-        width: 75%;
+        width: 100%;
+        flex-direction: column;
     }
 
     .pic {
-
-        height: 180px;
-        width: 170px;
-    }
-
-    .seen {
-        height: 180px;
-        width: 170px;
-    }
-
-    .block {
-        height: 180px;
-        width: 170px;
-    }
-
-    .brake {
-        height: 180px;
+        height: 230px;
         width: 170px;
     }
 
     .yellow {
         padding: 7px;
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .transparent p {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .info {
-        font-size: 1em;
-        letter-spacing: normal;
-        font-weight: lighter;
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: bolder;
         padding: 0.7em;
     }
 
@@ -587,13 +636,13 @@
         padding: 0.3em 0.9em 0.3em 0.4em;
         margin: 0.1em;
         font-weight: bolder;
-        font-size: 0.7em;
-        width: 35%;
+        font-size: 12px;
+        width: 40%;
     }
 
     .control {
         padding: 0.3em 0.9em;
-        font-size: 0.7em;
+        font-size: 12px;
     }
 
     .container section.final {
@@ -606,39 +655,75 @@
     ul p {
         letter-spacing: normal;
         font-weight: lighter;
-        line-height: 10px;
-        padding-right: 1.5em;
+        line-height: 25px;
+        font-size: 12px;
+        padding-right: 5.5em;
         color: #838080;
+    }
+
+    .final .box {
+        font-size: 12px;
+        min-height: 300px;
     }
 
     section.final .box ul>li:first-child {
         padding-bottom: 0.3em;
         font-weight: lighter;
-        font-size: 1.5em;
+        font-size: 13px;
         letter-spacing: 1px;
     }
 }
 
 @media screen and (min-width:801px) and (max-width:1024px) {
-    h2 {
-        letter-spacing: 0.4em;
-        padding: 0.5em;
-        font-size: 1.7em;
+    .blanket {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100%;
+    }
+
+    .row {
+        width: 55%;
+    }
+
+    nav {
+        width: 25%;
     }
 
     .peach {
-        padding: 0.4em;
-        font-size: 1em;
+        background-color: #000;
+        padding: 0;
     }
 
-    .peach ul:nth-child(3) {
-        width: 15%;
+    .peach ul {
+        display: none;
+    }
+
+    span.hidden {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        border: none;
+        background-color: #000;
         color: #fff;
     }
 
+    .menu>i {
+        font-size: large;
+    }
+
+    h2 {
+        letter-spacing: 0.4em;
+        padding: 0.5em;
+        font-size: 25px;
+    }
+
     h1 {
-        font-size: 5em;
-        padding-top: 0.6em;
+        font-size: 85px;
+        padding-top: 1em;
         letter-spacing: 3px;
     }
 
@@ -655,22 +740,22 @@
     p {
         word-spacing: 0.1em;
         text-align: center;
-        font-size: 10px;
+        font-size: 13px;
         padding-top: 1em;
         font-weight: bolder;
         letter-spacing: 0.2em;
     }
 
     .bttn {
-        margin-bottom: 2em;
+        margin-bottom: 1.5em;
     }
 
     .bttn a {
         text-decoration: none;
-        width: 30%;
+        width: 20%;
         color: #000;
-        padding: 0.5em 1em;
-        font-size: 0.9em;
+        padding: 0.3em 0.7em;
+        font-size: 15px;
         font-weight: bolder;
         background-color: #f9b506;
     }
@@ -689,18 +774,22 @@
         text-align: center;
         padding-top: 1em;
         color: #000;
-        letter-spacing: 2px;
-        font-weight: normal;
-        font-size: 2em;
+        letter-spacing: 5px;
+        font-weight: bolder;
+        font-size: 1.5em;
     }
 
     .blank {
-        padding: 0.2em 7em;
+        padding: 0.2em 3em;
+        flex-direction: column;
+        width: 85%;
     }
 
     .blank .peach {
-        width: 50%;
-        padding: 0.2em 0.5em;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        padding: 0.4em;
     }
 
     .blank .peach img {
@@ -708,21 +797,23 @@
     }
 
     .blank .peach p {
-        padding-top: 1em;
-        line-height: 14px;
-        color: #948f8f;
-        font-size: 11px;
+        padding-top: 5px;
+        line-height: 25px;
+        color: #2e2e2e;
+        font-size: 16px;
     }
 
     .blank .cover {
-        width: 50%;
+        width: 85%;
+        margin-left: 7.5%;
         padding: 0.2em;
     }
 
     .cover table {
         width: 100%;
-        margin-bottom: 1em;
-        font-size: 0.8em;
+        margin-bottom: 2em;
+        height: 120px;
+        font-size: 15px;
     }
 
     tr>th:nth-child(2),
@@ -746,68 +837,65 @@
     }
 
     .box img:nth-child(2) {
-        padding-left: 0.3em;
+        padding-left: 0.2em;
     }
 
     .find {
-        font-weight: normal;
-        font-size: 2em;
-        letter-spacing: 0.1em;
+        font-weight: bolder;
+        font-size: 25px;
         padding-top: 1em;
         padding-bottom: 0.5em;
     }
 
     .fix {
-        padding: 0 6em;
+        padding: 0 4em;
+        flex-direction: column;
     }
 
     .cloth h3 {
-        color: rgb(20, 20, 20);
         padding-bottom: 0.1em;
-        padding-top: 1em;
-        font-size: 0.9em;
+        padding-top: 0.9em;
+        font-size: 22px;
+        color: #000;
     }
 
     .cloth p {
-        line-height: 1.3em;
-        padding-top: 0.9em;
-        font-size: 0.9em;
+        line-height: 1.6em;
+        padding-top: 0.7em;
+        font-size: 19px;
+        color: #2e2e2e;
         letter-spacing: normal;
         padding-right: 0.5em;
+        margin-left: 0px;
     }
 
     .con {
-        padding: 1em 6em;
+        padding: 1em 10em;
     }
 
     .con h2 {
-        padding: 0.5em 1.4em;
-        font-size: 1.3em;
-        letter-spacing: 0.2em;
-        word-spacing: 0.4em;
-        line-height: 1.6em;
+        padding: 0.5em 1.8em;
+        font-size: 22px;
+        letter-spacing: 5px;
+        word-spacing: 0.2em;
+        line-height: 1.5em;
     }
 
     .con p {
-        font-size: 0.8em;
+        font-size: 18px;
         line-height: 1.5em;
-        padding: 1em 18em 1em 2.2em;
+        padding: 1em 2.3em;
     }
 
     .con .btn {
-        border: 1px solid #fff;
         padding: 0.5em;
-        width: 15%;
+        width: 20%;
         font-size: 13px;
-        margin-top: 1em;
-        margin-left: 2.2em;
-        text-align: center;
+        margin-left: 2.6em;
     }
 
-    .click {
-        width: 100%;
-        display: flex;
-        justify-content: center;
+    .testimony .click {
+        padding: 0.5em;
     }
 
     .click input.click.button {
@@ -816,9 +904,10 @@
 
     .testimony h2 {
         padding: 1em;
-        font-size: 1.5em;
+        font-size: 25px;
         letter-spacing: 0.2em;
     }
+
 
     .testimony figure img {
         border-radius: 50%;
@@ -829,11 +918,13 @@
     }
 
     .testimony p {
-        font-size: 0.9em;
-        color: rgb(114, 112, 112);
-        text-align: center;
+        font-size: 16px;
+        color: rgb(70, 68, 68);
         padding: 0.6em 10em;
-        letter-spacing: normal;
+    }
+
+    .testimony b {
+        font-size: 18px;
     }
 
     p.last {
@@ -842,50 +933,33 @@
     }
 
     p.our {
-        font-size: 1.5em;
+        font-size: 25px;
         padding-top: 1em;
-        padding-bottom: 0;
     }
 
     .punch {
-        width: 75%;
+        width: 100%;
+        flex-direction: column;
     }
 
     .pic {
-        height: 240px;
-        width: 160px;
-    }
-
-    .seen {
-        height: 240px;
-        width: 150px;
-    }
-
-    .block {
-        height: 240px;
-        width: 160px;
-    }
-
-    .brake {
-        height: 240px;
-        width: 160px;
+        height: 275px;
+        width: 235px;
     }
 
     .yellow {
-        padding: 10px;
-        font-size: 13px;
-        margin: 0px 3px 8px 3px;
+        padding: 7px;
+        font-size: 15px;
     }
 
     .transparent p {
-        font-size: 20px;
-        padding: 10px 5px;
+        font-size: 21px;
     }
 
     .info {
-        font-size: 2em;
-        letter-spacing: normal;
-        font-weight: lighter;
+        font-size: 25px;
+        letter-spacing: 4px;
+        font-weight: bolder;
         padding: 0.7em;
     }
 
@@ -895,37 +969,43 @@
     }
 
     .form-control {
-        padding: 0.5em 0.9em 0.5em 0.4em;
-        margin: 0.2em;
-        font-weight: bolder;
-        font-size: 0.9em;
-        width: 30%;
+        padding: 0.3em 0.9em 0.3em 0.4em;
+        margin: 0.1em;
+        font-weight: normal;
+        font-size: 18px;
+        width: 40%;
     }
 
     .control {
-        padding: 0.5em 1em;
-        font-size: 0.9em;
+        padding: 0.3em 0.9em;
+        font-size: 18px;
     }
 
     .container section.final {
-        padding: 2em 6em;
+        padding: 1em 6em 2em 6em;
         text-align: start;
-        line-height: 22px;
-        font-size: 0.7em;
+        line-height: 17px;
+        font-size: 0.5em;
     }
 
     ul p {
         letter-spacing: normal;
         font-weight: lighter;
-        line-height: 15px;
-        padding-right: 1.5em;
+        line-height: 25px;
+        font-size: 15px;
+        padding-right: 7.5em;
         color: #838080;
     }
 
+    .final .box {
+        font-size: 15px;
+        min-height: 300px;
+    }
+
     section.final .box ul>li:first-child {
-        padding-bottom: 0.5em;
+        padding-bottom: 0.3em;
         font-weight: lighter;
-        font-size: 1.3em;
+        font-size: 20px;
         letter-spacing: 1px;
     }
 }

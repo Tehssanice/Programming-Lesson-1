@@ -15,6 +15,7 @@ body {
 .container section {
     display: flex;
     width: 100%;
+    align-items: center;
 }
 
 .peach {
@@ -30,6 +31,7 @@ h2 {
     padding: 0.5em;
     color: #fff;
     text-align: center;
+    font-size: 35px;
 }
 
 .peach span {
@@ -37,20 +39,24 @@ h2 {
 }
 
 .peach ul {
-    width: 50%;
+    width: 20%;
     display: flex;
     justify-content: space-around;
     color: #fff;
 }
 
 .peach ul:nth-child(3) {
-    width: 10%;
+    width: 50%;
     color: #fff;
 }
 
 .peach ul li:hover {
     color: rgb(252, 236, 18);
 }
+
+/* .peach button.menu {
+    display: none;
+} */
 
 h1 {
     width: 100%;
@@ -117,6 +123,7 @@ h4 {
     padding: 0.9em 0;
     color: #000;
     font-size: 2em;
+    letter-spacing: 10px;
 }
 
 .blank {
@@ -256,6 +263,7 @@ td {
     letter-spacing: 0.7em;
     word-spacing: 0.5em;
     line-height: 2em;
+    font-size: 25px;
 }
 
 .con p {
@@ -333,64 +341,31 @@ p.our {
 }
 
 .punch {
-    width: 65%;
     display: flex;
-    justify-content: space-between;
+    width: 60%;
+}
+
+.punch .save {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
     padding: 10px 0px;
     margin: auto;
-
+    justify-content: space-around;
 }
 
 .pic {
-    background-image: url(/punch-images/7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 240px;
-    width: 160px;
-    margin-left: 5px;
+    width: 45%;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
 }
 
-.seen {
-    background-image: url(/punch-images/8.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 240px;
-    width: 150px;
-    margin-left: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.block {
-    background-image: url(/punch-images/10.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 240px;
-    width: 160px;
-    margin-left: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.brake {
-    background-image: url(/punch-images/9.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 240px;
-    width: 160px;
-    margin-left: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.pic img {
+    width: 100%;
 }
 
 .transparent {
@@ -398,6 +373,12 @@ p.our {
     flex-direction: column;
     background-color: rgb(74 71 71 / 50%);
     width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.transparent.center {
+    bottom: 27%;
 }
 
 .yellow {
@@ -443,18 +424,20 @@ form {
 }
 
 .container section.final {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
     background-color: #000;
     color: #838080;
-    padding: 1em 13em;
-    text-align: start;
-    line-height: 35px;
+}
+
+.final .box{
+    min-height: 300px;
 }
 
 .box ul li {
     list-style: none;
+}
+
+.lh{
+    line-height: 40px;
 }
 
 ul p {
